@@ -1,0 +1,369 @@
+header.head-1{
+    background-color: black;
+    color: #c8d5e9;
+    float: right;
+    padding-right: 100px;
+}
+
+header.head-2{
+    background-color: black;
+    color: #c8d5e9;
+    padding-left: 100px;
+
+}
+
+.nav-link:link{
+color: black;
+}
+
+
+.nav-link:visited{
+color: black;
+}
+
+.nav-link:hover{
+color: white;
+}
+
+
+.nav-link:active{
+color: black;
+}
+
+#learn-more {
+    margin-left: 50%;
+    margin-top: 21%;
+    margin-bottom: 18%;
+    border: 3px solid;
+    border-radius: 39px;
+    font-size: 20px;
+    color: #2c425f;
+    border-color: #9db0d1;
+}
+#table1{
+
+    margin-bottom: 80px;
+
+}
+
+
+#table1 tr td {
+    color: #785637;
+    padding-left: 87px;
+    padding-right: 63px;
+    background-color: #000000b0;
+}
+
+#table1 tr h3 {
+    color: #f9cb90;
+}
+/**************************/
+* {
+  box-sizing: border-box;
+}
+
+.all
+{
+  background-image: url(../pictures/hqocblio_restaurant-_625x300_14_January_20.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #5c35125c;*/
+  margin: 0;
+  padding: 0;
+}
+.lwn
+{
+  background-color: #5c3512e0;
+  font-family: 'Lato', sans-serif;
+    color: #e2c3aae6;
+}
+.up
+{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.up p{
+  font-family: 'Exo', sans-serif;
+  font-size: 36px;
+}
+/*******inside grid*****/
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.here:hover
+{
+  background-color: #844813d4;
+}
+img #menna
+{
+  height: 200px;
+  width: 100%;
+}
+.here p{
+      font-size: revert;
+}
+
+.move{padding: 35px 20px;}
+
+/* ahmed salah*/
+
+/* Start Taste of Italiano */
+.taste-of-italiano {
+    background: url(../pictures/taste-of-italiano-background-2.jpg) no-repeat center center fixed;
+    padding-top: 75px;
+}
+
+.taste-of-italiano .taste-of-italiano-content {
+    background-color: #000;
+    opacity: 0.8;
+    padding: 30px 30px 0;
+}
+
+.taste-of-italiano .taste-of-italiano-content .content-heading {
+    color: #e6a265;
+    margin-bottom: 15px;
+}
+
+.taste-of-italiano .taste-of-italiano-content .content-heading span {
+    display: block;
+
+}
+
+.taste-of-italiano .taste-of-italiano-content .content-heading .main-heading {
+    font-size: 60px;
+    line-height: 0.5;
+    letter-spacing: -2px;
+    height: 24px;
+}
+
+.taste-of-italiano .taste-of-italiano-content .content-heading .brand-heading {
+    font-size: 37px;
+    letter-spacing: -1px;
+}
+
+.taste-of-italiano-parent .content-img {
+    display: inline-flex;
+    opacity: 1;
+    min-width: 100%;
+    height: 250px;
+    z-index: 1000;
+    margin-bottom: 30px;
+}
+
+/* End Taste Of Italiano */
+
+/* Start Chefs */
+.chefs-part {
+    background: url(../pictures/chefs-background.jpg) no-repeat center center fixed;
+}
+
+.chefs-part .chefs-content {
+    background-color: #704B33;
+    opacity: 0.9;
+    padding: 30px;
+    min-height: 700px;
+}
+
+.chefs-part .chefs-content .wrapper {
+    margin: 0 5%;
+    position: relative;
+    /* min-height: 648px; */
+    min-height: 730px;
+}
+
+.chefs-part .chefs-content .wrapper .content-heading {
+    color: #F3D288;
+}
+
+
+.chefs-part .chefs-content .wrapper .content-heading span {
+    display: block;
+
+}
+
+.chefs-part .chefs-content .wrapper .content-heading .main-heading {
+    font-size: 58px;
+    line-height: 0.5;
+    letter-spacing: -3px;
+    height: 24px;
+}
+
+.chefs-part .chefs-content .wrapper .content-heading .brand-heading {
+    font-size: 37px;
+}
+
+.chefs-part .chefs-content .wrapper .carousel-part {
+    position: absolute;
+    top: 120px;
+}
+
+.chefs-part .chefs-content .wrapper .carousel-part .chef-card {
+    border: transparent;
+    z-index: 1000000000;
+}
+
+.chefs-part .chefs-content .wrapper .carousel-part .chef-img {
+    display: inline-block;
+    min-width: 100%;
+    height: 300px;
+    z-index: 3000;
+}
+
+.chefs-part .chefs-content .wrapper .carousel-part .chef-card-content {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.chefs-part .chefs-content .wrapper .carousel-part .chef-card-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 5px solid #fff;
+}
+
+.chefs-part .chefs-content .wrapper .carousel-part .chef-card-content a:hover {
+    color: #F3D288;
+    font-weight: normal;
+    border-bottom: 0;
+}
+
+/* End Chefs */
+
+
+/* Start Globals */
+.taste-of-italiano,
+.chefs-part {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* End Globals */
+
+.see 
+{
+    margin-top: 40px; 
+    background-image: url("../pictures/nada.jpg");
+     -web it- background-size: cover;           
+     -moz-background-size: cover;     
+     -o-background-size: cover;                
+     background-size: cover;                    
+     background-color: #EEE;
+     height:800px;
+     width:99%;
+     background-position: center ;
+     position: relative ;
+}
+.see .overlay
+{   
+    position: absolute;
+    background-color:black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+/* Start Testemonials */
+.Testemonials
+{   position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 2;
+}
+.Testemonials q
+{   
+    line-height: 1.8;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Testemonials h3
+{
+    color: rgb(202, 199, 199);
+     margin-bottom:  30px;
+}
+.Testemonials ul
+{
+    list-style: none;
+    padding-left:  0;
+    text-align: center;
+}
+.Testemonials ul li
+{
+    width: 15px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 30px;
+    color: black;
+}
+.Testemonials ul li:hover
+{
+  
+}
+/* End Testemonials */
+/*  Start  Features */
+.features
+{   position: relative;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    z-index: 2;
+}
+.features .feat
+{
+     float: left;
+     width: 400px;
+     height :150px ;
+}
+.features .tree 
+{
+    float: left;
+    width: 400px;
+    height :150px ;
+    margin-left: 116px;
+}
+.features .tree ul li
+{
+    text-decoration: none ;
+    color: rgb(202, 199, 199);
+
+}
+.features .feat h2 { text-transform: uppercase;color:white;margin: 10px 0 20px 10px;  }
+.features .tree h2 { text-transform: uppercase;color: white;margin: 10px 0 20px 10px;  }
+
+.features .feat p
+{
+    line-height: 1.7;
+    margin: 0 0 0 10px;
+    color: rgb(202, 199, 199);
+}
+/* End  Features */
+
+/* Start footer */
+.footer
+{
+    background-color: #191E22;
+    color:  #6A6E71;
+    margin-right: 15px;
+    padding: 20px 0 ;
+    text-align: center;
+    overflow: hidden;
+}
+.footer span {float: left;}
+/* End footer */
